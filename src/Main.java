@@ -8,6 +8,9 @@ public class Main {
 
         //How we can take input in java file...
         // Scanner   it came from java.util.scanner package -> Scanner class
-        Scanner input = new Scanner(System.in);
+//        Scanner input = new Scanner(System.in);
+
+
+
     }
 }
