@@ -123,24 +123,38 @@ public class Assigments {
 //         }
 
         //Q9: To find Armstrong Number between two given number.
-        System.out.print("Enter number1:");
-         int number1 = input.nextInt();
-        System.out.print("Enter number2:");
-        int number2 = input.nextInt();
+//        System.out.print("Enter number1:");
+//         int number1 = input.nextInt();
+//        System.out.print("Enter number2:");
+//        int number2 = input.nextInt();
+//
+//        for (int i = number1; i < number2; i++){
+//            int check, rem, sum = 0;
+//
+//            check = i;
+//            while (check !=0) {
+//                rem = check % 10;
+//                sum = sum + (rem * rem * rem);
+//                check = check / 10;
+//            }
+//            if (sum == i) {
+//                System.out.println("" + i +" " + "is a Armstrong number.");
+//            }
+//        }
 
-        for (int i = number1; i < number2; i++){
-            int check, rem, sum = 0;
+//        System.out.print("Enter the number:");
+//        int number = input.nextInt();
+//
+//        int reverseNum = number, sum=0, rem;
+//        while (number > 0){
+//            rem = number % 10;
+//            sum = (sum*10) + rem;
+//            number = number/10;
+//        }
+//        if ( reverseNum == number) {
+//            System.out.println("Number is Palindrome.");
+//        } else System.out.println("Number is not Palindrome.");
 
-            check = i;
-            while (check !=0) {
-                rem = check % 10;
-                sum = sum + (rem * rem * rem);
-                check = check / 10;
-            }
-            if (sum == i) {
-                System.out.println("" + i +" " + "is a Armstrong number.");
-            }
-        }
 
 
     }
